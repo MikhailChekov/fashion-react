@@ -70,6 +70,6 @@
 }
 
 .highligth--yellow::before{
-  background-color: var(--textColorLigth);
+  background-color: var(--colorLight);
   right: -95px;
 }
