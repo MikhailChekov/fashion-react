@@ -5,12 +5,8 @@
 .arrivals__header {
   margin-bottom: 100px;
 }
-.arrivals__title {
-}
-.arrivals__items {
+.arrivals__cards {
   display: flex;
   justify-content: space-between;
   column-gap: 20px;
-}
-.arrivals__item {
 }

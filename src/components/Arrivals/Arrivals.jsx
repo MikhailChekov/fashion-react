@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from '../Card/Card';
 import './Arrivals.css';
 
 function Arrivals() {
@@ -8,10 +9,12 @@ function Arrivals() {
             <div className="arrivals__header">
                 <h2 className="arrivals__title title-2">NEW ARRIVALS</h2>
             </div>
-            <div className="arrivals__items">
-                <div className="arrivals__item">1</div>
-                <div className="arrivals__item">2</div>
-                <div className="arrivals__item">3</div>
+            <div className="arrivals__cards">
+                <Card />
+                <Card />
+                <Card />
+                {/* <Card />
+                <Card /> */}
             </div>
         </div>
     </section>
