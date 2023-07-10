@@ -9,11 +9,11 @@ function Promo() {
         <div className="promo__content">
           <div className="promo__text">
             <div className="promo__title">
-              <span className="highligth">
+              <span className="promo__highligth">
                 <span>LET’S</span>
               </span>
               EXPLORE
-              <span className="highligth highligth--yellow">
+              <span className="promo__highligth promo__highligth--yellow">
                 <span>UNIQUE</span>
               </span>
               CLOTHES.

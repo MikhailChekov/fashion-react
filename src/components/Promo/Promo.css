@@ -48,12 +48,12 @@
   border-radius: 10px;
 }
 
-.highligth {
+.promo__highligth {
   display: inline-block;
   position: relative;
 }
 
-.highligth::before {
+.promo__highligth::before {
   content: "";
   display: block;
   position: absolute;
@@ -65,11 +65,11 @@
   transform: rotate(-2deg);
 }
 
-.highligth span {
+.promo__highligth span {
   position: relative;
 }
 
-.highligth--yellow::before{
+.promo__highligth--yellow::before{
   background-color: var(--colorLight);
   right: -95px;
 }
