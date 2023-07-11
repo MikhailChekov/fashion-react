@@ -35,7 +35,7 @@
 }
 
 .header__nav a {
-  color: var(--textColor);
+  color: var(--mainColor);
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
