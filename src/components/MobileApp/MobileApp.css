@@ -1,18 +1,37 @@
-.app {
+.mobile-app {
   padding: 210px 219px 200px 219px;
-}
-.app__content {
   display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
 }
-.app__title {
+.mobile-app__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 510px;
 }
-.app__desc {
+
+.mobile-app__title {
+  margin-bottom: 41px;
+  color: #000;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: 2.88px;
 }
-.app__btns {
+.mobile-app__desc {
+  margin-bottom: 65px;
+  color: var(--secColor);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: -0.96px;
 }
-.app__google {
+.mobile-app__btns {
+  display: flex;
+  column-gap: 19px;
 }
-.app__apple {
-}
-.app__image {
+.mobile-app__image {
+  text-align: center;
 }

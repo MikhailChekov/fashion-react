@@ -6,23 +6,23 @@ import appImg from "../../img/images/app.png";
 
 function MobileApp() {
   return (
-    <section className="app">
-      <div className="app__content">
-        <div className="app__title">DOWNLOAD APP & GET THE VOUCHER!</div>
-        <div className="app__desc">
+    <section className="mobile-app">
+      <div className="mobile-app__text">
+        <div className="mobile-app__title">DOWNLOAD APP & GET THE VOUCHER!</div>
+        <div className="mobile-app__desc">
           Get 30% off for first transaction using Rondovision mobile app for
           now.
         </div>
-        <div className="app__btns">
-          <a href="#!" className="app__google">
+        <div className="mobile-app__btns">
+          <a href="#!" className="mobile-app__google">
             <img src={googleImg} alt="google play app" />
           </a>
-          <a href="#!" className="app__apple">
+          <a href="#!" className="mobile-app__apple">
             <img src={appStoreImg} alt="AppStore app" />
           </a>
         </div>
       </div>
-      <div className="app__image">
+      <div className="mobile-app__image">
         <img src={appImg} alt="app screen" />
       </div>
     </section>

@@ -1,11 +1,13 @@
 :root {
-  --textColor: #000;
+  --mainColor: #000;
   --colorLight: #ebd96b;
+  --secColor: #7C7C7C;
+  --thirdColor: #7f7f7f;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  color: var(--textColor);
+  color: var(--mainColor);
 }
 
 .container {
@@ -17,7 +19,7 @@ body {
 .title-2 {
   display: inline-block;
   position: relative;
-  color: var(--textColor);
+  color: var(--mainColor);
   font-size: 48px;
   font-weight: 900;
   line-height: 50px;
