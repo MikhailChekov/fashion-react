@@ -1,0 +1,29 @@
+.join {
+  padding-top: 141px;
+  padding-bottom: 156px;
+  display: flex;
+  align-items: center;
+  background-color: #e5c643;
+}
+.join__content {
+  max-width: 1100px;
+}
+.join__title {
+  color: #fff;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 1.65px;
+}
+.join_desc {
+  color: #fffcf8;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.96px;
+}
+.form {
+  display: flex;
+  align-items: center;
+}

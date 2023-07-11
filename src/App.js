@@ -5,18 +5,20 @@ import Arrivals from "./components/Arrivals/Arrivals";
 import Sale from "./components/Sale/Sale";
 import Favourite from "./components/Favourite/Favourite";
 import MobileApp from "./components/MobileApp/MobileApp";
+import Join from "./components/Join/Join";
 
 function App() {
 
   return (
 		<div className="App">
-      <Header />
+      {/* <Header />
       <Promo />
       <Brands />
       <Arrivals /> 
       <Sale />
-      <Favourite />
-      <MobileApp />
+      <Favourite /> 
+      <MobileApp />*/}
+      <Join />
 		</div>
   );
 }
