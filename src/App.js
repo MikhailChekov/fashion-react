@@ -6,6 +6,7 @@ import Sale from "./components/Sale/Sale";
 import Favourite from "./components/Favourite/Favourite";
 import MobileApp from "./components/MobileApp/MobileApp";
 import Join from "./components/Join/Join";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
       <Arrivals /> 
       <Sale />
       <Favourite /> 
-      <MobileApp />*/}
-      <Join />
+      <MobileApp />
+      <Join />*/}
+      <Footer />
 		</div>
   );
 }
