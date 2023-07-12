@@ -4,6 +4,7 @@
   justify-content: space-between;
   column-gap: 30px;
 }
+
 .mobile-app__text {
   display: flex;
   align-items: center;
@@ -34,4 +35,10 @@
 }
 .mobile-app__image {
   text-align: center;
+}
+
+@media (max-width: 1600px) {
+  .mobile-app {
+    padding: 100px;
+  }
 }
