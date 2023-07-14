@@ -10,3 +10,14 @@
   justify-content: space-between;
   column-gap: 48px;
 }
+
+@media (max-width: 1200px) {
+  .favourite {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .favourite__title {
+    margin-bottom: 60px;
+  }
+}

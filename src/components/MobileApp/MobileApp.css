@@ -42,3 +42,9 @@
     padding: 100px;
   }
 }
+
+@media (max-width: 1200px) {
+  .mobile-app {
+    padding: 50px;
+  }
+}

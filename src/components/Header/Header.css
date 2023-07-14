@@ -54,3 +54,9 @@ a.header__nav-btn {
   letter-spacing: -0.72px;
   border-radius: 7px;
 }
+
+@media (max-width: 1200px){
+  .header {
+    margin: 40px 0;
+  }
+}

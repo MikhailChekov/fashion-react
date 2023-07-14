@@ -10,3 +10,18 @@
   justify-content: space-between;
   column-gap: 20px;
 }
+
+@media (max-width: 1200px) {
+  .arrivals {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+
+  .arrivals__header {
+    margin-bottom: 60px;
+  }
+  
+  .arrivals__header {
+    margin-bottom: 60px;
+  }
+}

@@ -53,6 +53,16 @@
   letter-spacing: 0.4px;
 }
 
-.footer__menu li:first-child a{
-  color: #D9D9D9;
+.footer__menu li:first-child a {
+  color: #d9d9d9;
+}
+
+@media (max-width: 1200px) {
+
+  .footer {
+    padding: 80px 30px;
+  }
+  .footer__menu-col {
+    min-width: 200px;
+  }
 }
