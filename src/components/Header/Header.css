@@ -60,3 +60,15 @@ a.header__nav-btn {
     margin: 40px 0;
   }
 }
+
+@media (max-width: 1024px){
+  .header {
+    margin: 10px 0;
+  }
+  .header__logo {
+    font-size: 40px;
+  }
+  .header__nav ul {
+    column-gap: 20px;
+  }
+}

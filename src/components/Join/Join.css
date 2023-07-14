@@ -67,3 +67,19 @@
   text-transform: uppercase;
   border-radius: 8px;
 }
+
+@media (max-width: 1024px) {
+  .join {
+    padding: 60px;
+  }
+
+  .join__title {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+
+  .join__desc {
+    font-size: 25px;
+  }
+  
+}

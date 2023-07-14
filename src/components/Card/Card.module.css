@@ -96,3 +96,17 @@
 .card:hover .card__icon {
   animation: slide 0.5s ease-in-out;
 }
+
+/*------------------- media ------------------- */
+
+@media (max-width: 1024px) {
+  .card__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  
+  .card__muted {
+    font-size: 20x;
+    line-height: 35px;
+  }
+}
