@@ -38,3 +38,9 @@ body {
   height: 32px;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}

@@ -72,3 +72,20 @@ a.header__nav-btn {
     column-gap: 20px;
   }
 }
+
+@media (max-width: 768px){
+  .header {
+    margin: 10px 0;
+  }
+  .header__logo {
+    font-size: 25px;
+  }
+  .header__nav ul {
+    column-gap: 10px;
+  }
+
+  .header__nav a {
+    font-size: 15px;
+    letter-spacing: 0.22px;
+  }
+}
