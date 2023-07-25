@@ -15,7 +15,7 @@
 
 .mobile-app__title {
   margin-bottom: 41px;
-  color: #000;
+  color: var(--mainColor);
   font-size: 48px;
   font-weight: 900;
   line-height: 150%;
@@ -46,5 +46,23 @@
 @media (max-width: 1200px) {
   .mobile-app {
     padding: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-app {
+    padding: 35px 30px;
+  }
+
+  .mobile-app__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .mobile-app__desc {
+    margin-bottom: 20px;
+    color: var(--secColor);
+    font-size: 20px;
+    line-height: 32px;
   }
 }

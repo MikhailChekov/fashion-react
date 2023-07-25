@@ -43,8 +43,8 @@
   color: var(--mainColor);
   font-size: 36.04px;
   font-weight: 400;
-  line-height: 52.316px;
   letter-spacing: -0.721px;
+  line-height: 52.316px;
 }
 
 .sale__text b {
@@ -172,5 +172,54 @@
   .sale__desc p,
   .sale__desc b {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sale__text-wrapper {
+    display: flex;
+    padding: 20px;
+  }
+
+  .sale__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .sale__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .sale__desc {
+    margin-bottom: 10px;
+  }
+  .sale__hot {
+    margin-bottom: 10px;
+  }
+
+  .sale__highlight {
+    margin-right: 10px;
+  }
+
+  .sale__highlight::before {
+    top: 0px;
+    left: -7px;
+    right: -3px;
+    bottom: 0px;
+  }
+
+  .sale__desc p,
+  .sale__desc b {
+    font-size: 20px;
+  }
+
+  .sale__desc p{
+    line-height: 40px;
+  }
+
+  .sale__br {
+    display: none;
   }
 }

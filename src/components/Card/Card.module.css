@@ -110,3 +110,29 @@
     line-height: 35px;
   }
 }
+
+@media (max-width: 768px) {
+
+  .card__body {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .card__imgwrap {
+    margin-bottom: 10px;
+  }
+
+  .card__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  .card__muted {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .card__icon {
+    display: none;
+  }
+}

@@ -14,7 +14,7 @@ function Sale() {
             <span className="sale__highlight">
               <span>PAYDAY</span>
             </span>
-            <br />
+            <br className="sale__br"/>
             SALE NOW
           </div>
           <div className="sale__desc">

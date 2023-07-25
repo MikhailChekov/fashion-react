@@ -31,14 +31,11 @@
   
 }
 
-@media(max-width: 767px) {
+@media(max-width: 768px) {
   .brands {
-    padding: 15px 40px;
+    padding: 25px;
   }
-
   .brands__list {
-
     column-gap: 30px;
   }
-  
 }

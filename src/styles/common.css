@@ -43,4 +43,8 @@ body {
   .container {
     padding: 0 10px;
   }
+
+  .title-2 {
+    font-size: 35px;
+  }
 }

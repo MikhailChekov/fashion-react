@@ -81,5 +81,20 @@
   .join__desc {
     font-size: 25px;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .join {
+    padding: 30px;
+  }
+
+  .join__title {
+    font-size: 30px;
+  }
+
+  .join__desc {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
